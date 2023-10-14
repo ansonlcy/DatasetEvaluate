@@ -98,6 +98,8 @@ smilarity_metrix = evaluate_utils.get_similarity_among_frames(simi_det_dict)
 # 2. Installation and Run
 Calculate the similarity need to use GraphDot which requires a CUDA Toolkit installation for carrying out GPU computations. To install it, following the instructions on https://developer.nvidia.com/cuda-toolkit.
 
+and than:
+
 ```python
 pip install -r requirements.txt
 ```
